@@ -63,4 +63,9 @@ func main() {
 	// copy(number_list, original_number_list)
 	// fmt.Println("Before Bucket Sort: ", number_list)
 	// fmt.Println("After Bucket Sort: ", sort.BucketSort(number_list))
+
+	// Shell Sort
+	copy(number_list, original_number_list)
+	fmt.Println("Before Shell Sort: ", number_list)
+	fmt.Println("After Shell Sort: ", sort.ShellSort(number_list))
 }
