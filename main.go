@@ -65,7 +65,17 @@ func main() {
 	// fmt.Println("After Bucket Sort: ", sort.BucketSort(number_list))
 
 	// Shell Sort
+	// copy(number_list, original_number_list)
+	// fmt.Println("Before Shell Sort: ", number_list)
+	// fmt.Println("After Shell Sort: ", sort.ShellSort(number_list))
+
+	// Counting Sort
+	// copy(number_list, original_number_list)
+	// fmt.Println("Before Counting Sort: ", number_list)
+	// fmt.Println("After Counting Sort: ", sort.CountingSort(number_list))
+
+	// Radix Sort
 	copy(number_list, original_number_list)
-	fmt.Println("Before Shell Sort: ", number_list)
-	fmt.Println("After Shell Sort: ", sort.ShellSort(number_list))
+	fmt.Println("Before Radix Sort: ", number_list)
+	fmt.Println("After Radix Sort: ", sort.RadixSort(number_list))
 }
