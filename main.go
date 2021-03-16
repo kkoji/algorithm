@@ -1,8 +1,6 @@
 package main
 
 import (
-	"algorithm/sort"
-	"fmt"
 	"math/rand"
 	"time"
 )
@@ -22,8 +20,8 @@ func generate_number_list(int_num int) []int {
 }
 
 func main() {
-	original_number_list := generate_number_list(10)
-	number_list := make([]int, len(original_number_list))
+	// original_number_list := generate_number_list(10)
+	// number_list := make([]int, len(original_number_list))
 	// Bogo Sort
 	// copy(number_list, original_number_list)
 	// fmt.Println("Before: Bogo Sort", number_list)
@@ -75,7 +73,17 @@ func main() {
 	// fmt.Println("After Counting Sort: ", sort.CountingSort(number_list))
 
 	// Radix Sort
-	copy(number_list, original_number_list)
-	fmt.Println("Before Radix Sort: ", number_list)
-	fmt.Println("After Radix Sort: ", sort.RadixSort(number_list))
+	// copy(number_list, original_number_list)
+	// fmt.Println("Before Radix Sort: ", number_list)
+	// fmt.Println("After Radix Sort: ", sort.RadixSort(number_list))
+
+	// Singly Linked List
+	// l := link_list.LinkedList{}
+	// l.Append(1)
+	// l.Append(2)
+	// l.Append(3)
+	// l.Append(2)
+	// l.Insert(0)
+	// l.Remove(2)
+	// l.Print()
 }
